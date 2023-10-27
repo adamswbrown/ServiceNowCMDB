@@ -1,7 +1,7 @@
 # Define your ServiceNow instance and credentials
-$uri = 'https://dev137828.service-now.com/api/now/table/'
-$user = "admin"
-$pass = "8!*Nl4dkHxMI"
+$uri = 'https://xxx.service-now.com/api/now/table/'
+$user = "xxx"
+$pass = "xxx"
 
 # Convert to SecureString
 $secpasswd = ConvertTo-SecureString $pass -AsPlainText -Force
